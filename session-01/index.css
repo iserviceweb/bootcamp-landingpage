@@ -1,0 +1,58 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,600&display=swap');
+
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color:white;
+    font-family: 'Newsreader', serif;
+}
+
+.header-container{
+    /* background-color: blue; */
+    margin:1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    /* em, rem, px */
+}
+
+/* #header{
+
+} */
+
+/* img {
+    width:30px;
+} */
+
+.header-container > img {
+    /* height: 1.8em; */
+    width: 104px;
+    /* height: auto; */
+}
+
+.navbar{
+    background-color: white;
+    padding: 1em 2em;
+    border-radius: 0.8vw;
+}
+
+.navbar > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1em;
+}
+
+.get-btn{
+    background-color: #584FFF;
+    color: white;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 1.75em;
+}
